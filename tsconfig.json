@@ -1,0 +1,17 @@
+{
+  "extends": "@eggjs/tsconfig",
+  "compilerOptions": {
+    "target": "es2021",
+    "declaration": false
+  },
+  "exclude": [
+    "app/public",
+    "app/views",
+    "node_modules*"
+  ],
+  "include": [
+    "*.ts",
+    "**/*.ts",
+    "*.d.ts"
+  ]
+}
